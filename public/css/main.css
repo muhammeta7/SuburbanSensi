@@ -110,8 +110,8 @@ h2 {
 }
 
 .navbar-brand img {
-  position: absolute;
-  top: -35px;
+  /*position: absolute;
+  top: -14px;*/
 }
 
 .navbar-right {
