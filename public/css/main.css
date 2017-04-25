@@ -109,9 +109,16 @@ h2 {
   width: 297px;
 }
 
-.navbar-brand img {
+.navbar-brand h4 {
   /*position: absolute;
   top: -14px;*/
+  color: white;
+  /*padding: 35px 21px;*/
+  font-size: 26px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
 }
 
 .navbar-right {
