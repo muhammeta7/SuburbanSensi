@@ -1,308 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">  
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Yanone+Kaffeesatz" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">  
+      <link href="css/responsive.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dosis|Yanone+Kaffeesatz" rel="stylesheet">
+        
+      <link rel="shortcut icon" href="images/ico/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <body>
+    
+    <header id="header" role="banner">    
+      <div class="main-nav">
+        <div class="container">    
+          <div class="row">   
 
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head>
-<body>
-  
-  <header id="header" role="banner">    
-    <div class="main-nav">
-      <div class="container">    
-        <div class="row">   
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand">
-                <h4>Suburban Sensi</h4>
-                <!-- <img class="img-responsive" src="images/logo.png" alt="logo"> -->
-              </a>                    
-            </div>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">                 
-                <li class="scroll active"><a href="#home">Home</a></li>
-                <li class="scroll"><a href="#explore">Explore</a></li>
-                <li class="scroll"><a href="#about">About</a></li>                         
-                <li class="scroll"><a href="#members">Members</a></li>
-                <li class="scroll"><a href="#contact">Contact</a></li>       
-              </ul>
-            </div>
-
-        </div>
-      </div>
-    </div>                    
-  </header>
-
-  <!-- Home -->
-  <section id="home"> 
-    <div id="main-slider" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-        <li data-target="#main-slider" data-slide-to="1"></li>
-        <li data-target="#main-slider" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img class="img-responsive" src="images/slider/sensi.jpg" alt="slider">           
-          <!-- <div class="carousel-caption">
-            <h2>register for our next event </h2>
-            <h4>full event package only @$199</h4>
-            <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-          </div> -->
-        </div>
-        <div class="item">
-          <img class="img-responsive" src="images/slider/fire.jpg" alt="slider"> 
-          <!-- <div class="carousel-caption">
-            <h2>register for our next event </h2>
-            <h4>full event package only @$199</h4>
-            <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-          </div> -->
-        </div>
-        <div class="item">
-          <img class="img-responsive" src="images/slider/bow.jpg" alt="slider"> 
-          <!-- <div class="carousel-caption">
-            <h2>register for our next event </h2>
-            <h4>full event package only @$199</h4>
-            <a href="#contact" >GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
-          </div> -->
-        </div>        
-      </div>
-    </div>      
-  </section>
-
-
-  <!-- Explore, Next Event Section -->
-  <section id="explore">
-    <div class="container">
-      <div class="row">
-        <div class="watch">
-          <img class="img-responsive" src="images/watch.png" alt="">
-        </div>        
-        <div class="col-md-4 col-md-offset-2 col-sm-5">
-          <h2>our next event in</h2>
-        </div>        
-        <div class="col-sm-7 col-md-6">         
-          <ul id="countdown">
-            <li>          
-              <span class="days time-font">00</span>
-              <p>days </p>
-            </li>
-            <li>
-              <span class="hours time-font">00</span>
-              <p class="">hours </p>
-            </li>
-            <li>
-              <span class="minutes time-font">00</span>
-              <p class="">minutes</p>
-            </li>
-            <li>
-              <span class="seconds time-font">00</span>
-              <p class="">seconds</p>
-            </li>       
-          </ul>
-        </div>
-      </div>
-      <!-- <div class="cart">
-        <a href="#"><i class="fa fa-shopping-cart"></i> <span>Purchase Tickets</span></a>
-      </div> -->
-    </div>
-  </section>
-
-
-  <!-- About -->
-  <section id="about">
-    <div class="guitar2">       
-      <img class="img-responsive" src="images/guitar2.jpg" alt="guitar">
-    </div>
-    <div class="about-content">         
-      <h2>About Us</h2>
-      <p>When it comes to Groovalicious, Funktastic, Good-Time Vibes, there's nothing like a little Sensi. The freshest rhymes, licks and beats to come out of Jersey since George Clinton left Plainfield, Suburban Sensi is here to move not just your body, but your Soul.</br></br>
-      Consisting of five members Tommy Gonzales (Guitar, Vocals) Steve Difalco
-      (Keyboard,Vocals) Anton Millioti (Bass, Vocals) Buddy Alaimo (Drums) and
-      Ken Ditmars (Percussion) Suburban Sensi is more like a family. Tommy (Guitar) and Steve (Keyboard) are actually cousins and have been jamming for years. Getting their start young while still in high school, the band began writing and practicing in Tommy's basement known as the legendary "Blazement" where the band developed their sound over the years.</br></br>
-      Suburban Sensi have shared bills with Moe. , 311, Matisyahu, Keller Williams, The Main Squeeze, New Riders of the Purple Sage, Bernie Worrell, and many other notable artists. They have performed at numerous festivals, bars, and parties across the Tri - State area and are regular performers at Camp Jam in the Pines music festival in the beautiful Pinelands of New Jersey which Sensi calls home</p>
-    </div>
-  </section>
-
-
-  <!-- Members -->
-  <section id="members">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-9">
-          <div id="event-carousel" class="carousel slide" data-interval="false">
-            <h2 class="heading">Meet the Band</h2>
-            <a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-
-            <div class="carousel-inner">
-              <div class="item active">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="single-event">
-                      <img class="img-responsive" src="images/event/tommy.jpg" alt="event-image">
-                      <h4>Tommy Gonzalez</h4>
-                      <h5>Guitar & Vocals</h5>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="single-event">
-                      <img class="img-responsive" src="images/event/steve.jpg" alt="event-image">
-                      <h4>Steve Difalco</h4>
-                      <h5>Keyboard & Vocals</h5>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="single-event">
-                      <img class="img-responsive" src="images/event/anton.jpg" alt="event-image">
-                      <h4>Anton Millioti</h4>
-                      <h5>Bass & Vocals</h5>
-                    </div>
-                  </div>
-                </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">
+                  <h4>Suburban Sensi</h4>
+                  <!-- <img class="img-responsive" src="images/logo.png" alt="logo"> -->
+                </a>                    
               </div>
-              <div class="item">
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="single-event">
-                      <img class="img-responsive" src="images/event/buddy.jpg" alt="event-image">
-                      <h4>Buddy Alaimo</h4>
-                      <h5>Drums</h5>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="single-event">
-                      <img class="img-responsive" src="images/event/ken.jpg" alt="event-image">
-                      <h4>Ken Ditmars</h4>
-                      <h5>Percussion</h5>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                  </div>
-                </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">                 
+                  <li class="scroll active"><a href="#home">Home</a></li>
+                  <li class="scroll"><a href="#explore">Explore</a></li>
+                  <li class="scroll"><a href="#about">About</a></li>                         
+                  <li class="scroll"><a href="#members">Members</a></li>
+                  <li class="scroll"><a href="#contact">Contact</a></li>       
+                </ul>
               </div>
-            </div>
+
           </div>
         </div>
+      </div>                    
+    </header>
 
-        <div class="guitar">
-          <img class="img-responsive" src="images/guitar.png" alt="guitar">
+    <!-- Home -->
+    <section id="home"> 
+      <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slider" data-slide-to="1"></li>
+          <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-responsive" src="images/slider/sensi.jpg" alt="slider">           
+            <!-- <div class="carousel-caption">
+              <h2>register for our next event </h2>
+              <h4>full event package only @$199</h4>
+              <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+            </div> -->
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="images/slider/fire.jpg" alt="slider"> 
+            <!-- <div class="carousel-caption">
+              <h2>register for our next event </h2>
+              <h4>full event package only @$199</h4>
+              <a href="#contact">GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+            </div> -->
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="images/slider/bow.jpg" alt="slider"> 
+            <!-- <div class="carousel-caption">
+              <h2>register for our next event </h2>
+              <h4>full event package only @$199</h4>
+              <a href="#contact" >GRAB YOUR TICKETS <i class="fa fa-angle-right"></i></a>
+            </div> -->
+          </div>        
         </div>
       </div>      
-    </div>
-  </section>
+    </section>
 
 
-  <!-- Contact -->
-
-  <section id="contact">
-    <div class="contact-section">
-      <div class="ear-piece">
-        <img class="img-responsive" src="images/ear-piece.png" alt="">
-      </div>
+    <!-- Explore, Next Event Section -->
+    <section id="explore">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3 col-sm-offset-4">
-            <div class="contact-text">
-              <h3>Contact</h3>
-              <address>
-                E-mail: suburbansensi@gmail.com<br>
-                Phone: +1 (123) 456 7890<br>
-              </address>
-            </div>
-            <div class="row">
-              <div class="row">
-                <div class=col-sm-2></div>
-                <div class=col-sm-4><a target="_blank" href="https://www.facebook.com/SuburbanSensi/"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-4><a target="_blank" href="https://twitter.com/suburbansensi"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-2></div>
-              </div>
-              <div class="row"></br></div>
-              <div class="row">
-                <div class=col-sm-2></div>
-                <div class=col-sm-4><a target="_blank" href="https://www.instagram.com/suburbansensi/?hl=en"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-4><a target="_blank" href="https://soundcloud.com/suburban-sensi"><i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-2></div>
-              </div>
-              <div class="row"></br></div>
-              <!-- <div class="row">
-                <div class=col-sm-2></div>
-                <div class=col-sm-4><a target="_blank" href=""><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-4><a target="_blank" href=""><i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i></a></div>
-                <div class=col-sm-2></div>
-              </div> -->
-            </div>
-           
-          </div>
-
-          <div class="col-sm-5">
-            <div id="contact-section">
-              <h3>Send a message</h3>
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                      <div class="form-group">
-                          <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-                      </div>
-                      <div class="form-group">
-                          <input type="email" name="email" class="form-control" required="required" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-                          <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Enter your message"></textarea>
-                      </div>                        
-                      <div class="form-group">
-                          <button type="submit" class="btn btn-primary pull-right">Send</button>
-                      </div>
-                  </form>        
-              </div>
+          <div class="watch">
+            <img class="img-responsive" src="images/watch.png" alt="">
+          </div>        
+          <div class="col-md-4 col-md-offset-2 col-sm-5">
+            <h2>our next event in</h2>
+          </div>        
+          <div class="col-sm-7 col-md-6">         
+            <ul id="countdown">
+              <li>          
+                <span class="days time-font">00</span>
+                <p>days </p>
+              </li>
+              <li>
+                <span class="hours time-font">00</span>
+                <p class="">hours </p>
+              </li>
+              <li>
+                <span class="minutes time-font">00</span>
+                <p class="">minutes</p>
+              </li>
+              <li>
+                <span class="seconds time-font">00</span>
+                <p class="">seconds</p>
+              </li>       
+            </ul>
           </div>
         </div>
       </div>
-    </div>    
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="container">
-        <div class="text-center">
-            <p> Copyright  &copy;2014<a target="_blank" href="http://shapebootstrap.net/"> Evento </a>Theme. All Rights Reserved. <br> Designed by <a target="_blank" href="http://shapebootstrap.net/">Muhammet Aydin</a></p>                
+
+    <!-- About -->
+    <section id="about">
+      <div class="guitar2">       
+        <img class="img-responsive" src="images/guitar2.jpg" alt="guitar">
+      </div>
+      <div class="about-content">         
+        <h2>About Us</h2>
+        <p>When it comes to Groovalicious, Funktastic, Good-Time Vibes, there's nothing like a little Sensi. The freshest rhymes, licks and beats to come out of Jersey since George Clinton left Plainfield, Suburban Sensi is here to move not just your body, but your Soul.</br></br>
+        Consisting of five members Tommy Gonzales (Guitar, Vocals) Steve Difalco
+        (Keyboard,Vocals) Anton Millioti (Bass, Vocals) Buddy Alaimo (Drums) and
+        Ken Ditmars (Percussion) Suburban Sensi is more like a family. Tommy (Guitar) and Steve (Keyboard) are actually cousins and have been jamming for years. Getting their start young while still in high school, the band began writing and practicing in Tommy's basement known as the legendary "Blazement" where the band developed their sound over the years.</br></br>
+        Suburban Sensi have shared bills with Moe. , 311, Matisyahu, Keller Williams, The Main Squeeze, New Riders of the Purple Sage, Bernie Worrell, and many other notable artists. They have performed at numerous festivals, bars, and parties across the Tri - State area and are regular performers at Camp Jam in the Pines music festival in the beautiful Pinelands of New Jersey which Sensi calls home</p>
+      </div>
+    </section>
+
+
+    <!-- Members -->
+    <section id="members">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-9">
+            <div id="event-carousel" class="carousel slide" data-interval="false">
+              <h2 class="heading">Meet the Band</h2>
+              <a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+              <a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="single-event">
+                        <img class="img-responsive" src="images/event/tommy.jpg" alt="event-image">
+                        <h4>Tommy Gonzalez</h4>
+                        <h5>Guitar & Vocals</h5>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="single-event">
+                        <img class="img-responsive" src="images/event/steve.jpg" alt="event-image">
+                        <h4>Steve Difalco</h4>
+                        <h5>Keyboard & Vocals</h5>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="single-event">
+                        <img class="img-responsive" src="images/event/anton.jpg" alt="event-image">
+                        <h4>Anton Millioti</h4>
+                        <h5>Bass & Vocals</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="single-event">
+                        <img class="img-responsive" src="images/event/buddy.jpg" alt="event-image">
+                        <h4>Buddy Alaimo</h4>
+                        <h5>Drums</h5>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="single-event">
+                        <img class="img-responsive" src="images/event/ken.jpg" alt="event-image">
+                        <h4>Ken Ditmars</h4>
+                        <h5>Percussion</h5>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="guitar">
+            <img class="img-responsive" src="images/guitar.png" alt="guitar">
+          </div>
+        </div>      
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="contact-section">
+        <div class="ear-piece">
+          <img class="img-responsive" src="images/ear-piece.png" alt="">
         </div>
-    </div>
-  </footer>
+        <div class="container">
 
-  <!-- JavaScript & jQuery -->
-  <script src="https://use.fontawesome.com/375a6dc6a2.js"></script> 
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript" src="js/gmaps.js"></script> -->
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.parallax.js"></script>
-  <script type="text/javascript" src="js/coundown-timer.js"></script>
-  <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-  <script type="text/javascript" src="js/jquery.nav.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+          <div class="row">
+
+            <div class="col-sm-3">
+            </div>
+
+            <div class="col-sm-6">
+              <div class="contact-text">
+                <h3>Contact</h3>
+                <address>
+                  E-mail: suburbansensi@gmail.com<br>
+                  Phone: +1 (123) 456 7890<br>
+                </address>
+              </div>
+              <div class="row">
+                <div class="row">
+                  <div class=col-sm-2></div>
+                  <div class=col-sm-4><a target="_blank" href="https://www.facebook.com/SuburbanSensi/"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></div>
+                  <div class=col-sm-4><a target="_blank" href="https://twitter.com/suburbansensi"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></div>
+                  <div class=col-sm-2></div>
+                </div>
+                <div class="row"></br></div>
+                <div class="row">
+                  <div class=col-sm-2></div>
+                  <div class=col-sm-4><a target="_blank" href="https://www.instagram.com/suburbansensi/?hl=en"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></div>
+                  <div class=col-sm-4><a target="_blank" href="https://soundcloud.com/suburban-sensi"><i class="fa fa-soundcloud fa-3x" aria-hidden="true"></i></a></div>
+                  <div class=col-sm-2></div>
+                </div>
+                <div class="row"></br></div>
+              </div>
+
+              <div class="col-sm-3"></div>  
+
+            </div>
+        </div>
+      </div>    
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+          <div class="text-center">
+              <p> Copyright  &copy;2014<a target="_blank" href="http://shapebootstrap.net/"> Evento </a>Theme. All Rights Reserved. <br> Designed by <a target="_blank" href="http://shapebootstrap.net/">Muhammet Aydin</a></p>                
+          </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript & jQuery -->
+    <script src="https://use.fontawesome.com/375a6dc6a2.js"></script> 
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/gmaps.js"></script> -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 
-</body>
+  </body>
 </html>
